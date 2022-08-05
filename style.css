@@ -82,3 +82,15 @@ button {
     outline: none;
     padding: 5px;
 }
+
+.btns-pesquisa {
+    margin-top: 18px;
+    height: 58px;
+    text-align: center;
+}
+
+.btns-pesquisa button {
+    margin: 11px 4px 11px 4px;
+    border: 1px solid transparent;
+    padding: 0 16px 0 16px;
+}
