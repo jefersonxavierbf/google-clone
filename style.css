@@ -94,3 +94,11 @@ button {
     border: 1px solid transparent;
     padding: 0 16px 0 16px;
 }
+
+.google-ingles {
+    height: 200px;
+}
+
+.google-ingles p {
+    text-align: center;
+}
