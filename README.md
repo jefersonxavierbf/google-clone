@@ -1,5 +1,5 @@
 # ![Clone do Google Bucador](img/logo-google.png) CLONE
-<p style="text-align: center; font-weight: bold; color: #fff">STATUS:</span> <span style="background: #34A853; color: #fff;">EM DESELHOVIMENTO </p>
+<p style="text-align: center; font-weight: bold; color: #fff">STATUS:</span> <span style="background: #34A853; color: #fff;">EM DESENVOLVIMENTO </p>
 
 ## Topicos
 - Descrição do projeto

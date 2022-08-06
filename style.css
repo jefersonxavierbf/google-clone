@@ -51,6 +51,10 @@ button {
     border: none;
 }
 
+.logo-container {
+    height: 93px;
+}
+
 .logo {
     display: block;
     margin: 0 auto;
@@ -102,10 +106,12 @@ button {
 }
 
 .google-ingles {
-    height: 200px;
+    margin-top: 10px;
+    height: 247px;
 }
 
 .google-ingles p {
+    height: 28px;
     text-align: center;
     font-size: 0.8em;
     color: #4d5156;
@@ -134,6 +140,7 @@ footer {
 footer ul {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 footer ul li {
