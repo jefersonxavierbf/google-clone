@@ -1,10 +1,11 @@
 # ![Clone do Google Bucador](img/logo-google.png) CLONE
-<p style="text-align: center; font-weight: bold; color: #fff">STATUS:</span> <span style="background: #34A853; color: #fff;">EM DESENVOLVIMENTO </p>
+<p style="text-align: center; font-weight: bold; color: #fff">STATUS: EM DESENVOLVIMENTO</p>
 
 ## Topicos
 - Descrição do projeto
 - Funcionalidades
 - Ferramenta utilizadas
+- Acesso ao projeto
 - Desenvolvedor
 
 # Descrição do projeto
@@ -17,6 +18,9 @@ Projeto em desenvolvimento como objetivo de recriar a interface do Buscador do G
 
 # Ferramentas utilizadas
 HTML5, CSS e JavaScript
+
+# Acesso ao projeto
+Você pode [acessar o projeto aqui](https://projeto-google-clone.netlify.app/).
 
 # Desenvolvedor
 
