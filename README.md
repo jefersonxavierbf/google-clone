@@ -1,5 +1,5 @@
 # ![Clone do Google Bucador](img/logo-google.png) CLONE
-<p style="text-align: center; font-weight: bold; color: #fff">STATUS: EM DESENVOLVIMENTO</p>
+STATUS: EM DESENVOLVIMENTO
 
 ## Topicos
 - Descrição do projeto
