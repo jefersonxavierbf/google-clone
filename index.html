@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +7,69 @@
     <title>Google</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 <body>
     <header>
         <nav class="nav-bar">
-            <ul class="nav-list">
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Imagens</a></li>
-                <li><button><img src="img/btn.PNG" alt=""></button></li>
-                <li><img class="profile" src="img/profiles.jpg" alt="profile"></a></li>
+            <!-- display none on desktop screen -->
+            <ul class="mobile-menu">
+                <li>
+                    <div class="mobile-menu-btn">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </li>
+                <li>
+                    <a class="todas-link" href="#">todas</a>
+                </li>
+                <li>
+                    <a href="#">imagens</a>
+                </li>
+            </ul>
+            <ul class="mobile-menu">
+                <li>
+                    <button>
+                        <img src="img/grid-btn.png" alt="grid button">
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <img class="profile-img" src="img/profile-img.jpg" alt="profile image">
+                    </button>
+                    </a>
+                </li>
+            </ul>
+        
+            <!-- display none on mobile screen -->
+            <ul class="desktop-menu">
+                <li>
+                    <a class="gmail-link" href="https://mail.google.com/mail/">gmail</a>
+                </li>
+                <li>
+                    <a class="imagens-link" href="#">imagens</a>
+                </li>
+                <li>
+                    <button>
+                        <img src="img/grid-btn.png" alt="button">
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <img class="profile-img" src="img/profile-img.jpg" alt="profile image">
+                    </button>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <div class="logo-container">
-            <img class="logo" src="img/logo-google.png" alt="">
-        </div>
-        <div class="pesquisa-container">
+        <section class="google-logo-container">
+            <img src="img/logo-google.png" alt="Google logo">
+        </section>
+
+        <section class="pesquisa-container">
             <div class="search-bar">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text">
@@ -35,7 +80,8 @@
                 <button>Pesquisa Google</button>
                 <button>Estou com sorte</button>
             </div>
-        </div>
+        </section>
+        
         <div class="google-ingles">
             <div class="ingles">
                 <p>Disponibilizado pelo Google em: <a href="#">English</a></p>
@@ -45,6 +91,7 @@
             <p>Brasil</p>
         </div>
     </main>
+    
     <footer>
         <ul>
             <li>sobre</li>
