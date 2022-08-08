@@ -96,6 +96,10 @@ header {
     max-width: 272px;
 }
 
+main {
+    height: 100vh;
+    padding: 0;
+}
 
 
 
@@ -146,11 +150,11 @@ header {
 
 .google-ingles {
     margin-top: 0.625rem;
-    height: 35.3vh;
+    height: 51.21vh;
 }
 
 .google-ingles p {
-    height: 48.98vh;
+    /* height: 30vh; */
     text-align: center;
     font-size: 0.8rem;
     color: #4d5156;
@@ -164,7 +168,7 @@ header {
     padding: 0.94rem 1.875rem;
     background-color: #f2f2f2;
     border-bottom: 1px solid #dadce0;
-    color: #70757a;;
+    color: #70757a;
 }
 
 footer {
