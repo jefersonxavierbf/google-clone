@@ -97,11 +97,6 @@ header {
     max-width: 272px;
 }
 
-main {
-    /* height: 100vh */
-}
-
-
 
 /* from projec begninning */
 .pesquisa-container {
@@ -150,11 +145,11 @@ main {
 
 .google-ingles {
     margin-top: 0.625rem;
-    height: 51.21vh;
+    height: 36vh;
 }
 
 .google-ingles p {
-    height: 30vh;
+    /* height: 30vh; */
     text-align: center;
     font-size: 0.8rem;
     color: #4d5156;
