@@ -100,7 +100,7 @@ header {
 
 /* from projec begninning */
 .pesquisa-container {
-    /* height: 24vh; */
+    height: 24vh;
     padding: 1.25rem;
 }
 
@@ -145,11 +145,11 @@ header {
 
 .google-ingles {
     margin-top: 0.625rem;
-    height: 36vh;
+    height: 37gitvh;
 }
 
 .google-ingles p {
-    /* height: 30vh; */
+    height: 30vh;
     text-align: center;
     font-size: 0.8rem;
     color: #4d5156;
