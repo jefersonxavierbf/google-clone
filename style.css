@@ -8,17 +8,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 header {
-    padding: 1vh; /* 6px */
+    padding: 0.375rem
 }
 
 .nav-bar {
     display: flex;
     flex-direction: row-reverse;
-    height: 7.2vh;
+    /* height: 7.2vh; */
 }
 
 .nav-bar li {
@@ -85,7 +85,7 @@ header {
 /* MAIN */
 /* teste: maybe remove it or not */
 main {
-    height: 100vh;
+    height: 78.9vh;
 }
 
 .google-logo-container {
