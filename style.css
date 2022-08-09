@@ -99,25 +99,25 @@ header {
 
 
 /* from projec begninning */
-.pesquisa-container {
+.search-box-container {
     height: 24vh;
     padding: 1.25rem;
 }
 
-.search-bar {
+.search-box {
     display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: center;
     max-width: 584px;
-    height: 6.5vh;
+    /* height: 6.5vh; */
     margin: 0 auto;
     border: 1px solid #2021242a;
     border-radius: 1.5rem;
     padding: 0.32rem 0.5rem 0 0.875rem;
 }
 
-.search-bar input {
+.search-box input {
     width: 100%;
     border: transparent;
     height: 1.75rem;
@@ -125,17 +125,21 @@ header {
     padding: 0.32rem;
 }
 
-.btns-pesquisa {
+.search-box .mic {
+    height: 1.25rem;
+}
+
+.search-box .fa-microphone {
+    display: none;
+}
+
+.search-box-btns-container {
     margin-top: 1.125rem;
     height: 3.625rem;
     text-align: center;
 }
 
-.mic {
-    height: 1.25rem;
-}
-
-.btns-pesquisa button {
+.search-box-btns-container button {
     margin: 0.69rem 0.25rem;
     border: 1px solid transparent;
     padding: 0 1rem;
@@ -143,30 +147,33 @@ header {
     background-color: #f8f9fa;
 }
 
-.google-ingles {
+.google-language-container {
     margin-top: 0.625rem;
     height: 37vh;
 }
 
-.google-ingles p {
-    height: 30vh;
+.google-language p {
+    /* height: 30vh; */
     text-align: center;
     font-size: 0.8rem;
     color: #4d5156;
 }
 
-.google-ingles a {
+.google-language a {
     text-decoration: none;
 }
 
-.pais {
+.country-bar {
+    display: block;
     padding: 0.94rem 1.875rem;
     background-color: #f2f2f2;
     border-bottom: 1px solid #dadce0;
     color: #70757a;;
 }
 
-footer {
+/* Footer */
+
+footer nav {
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
@@ -186,18 +193,13 @@ footer ul li {
     padding: 0.94rem;
 }
 
-/* from projet end */
-
-
-
-
 @media (max-width: 700px) {
     /* hide desktop menu */
     .desktop-menu {
         display: none;
     }
 
-    /* display mobile menu */
+    /* HEADER */
     .nav-bar {
         display: flex;
         flex-direction: unset;
@@ -233,6 +235,25 @@ footer ul li {
 
     .mobile-menu img {
         display: block;
+    }
+
+    /* MAIN */
+    .search-box-btns-container {
+        display: none;
+    }
+
+    .fa-keyboard {
+        display: none;
+    }
+
+    .search-box .mic {
+        display: none;
+    }
+    
+    .search-box .fa-microphone {
+        display: block;
+        height: 1.25rem;
+        color: #3c4043;
     }
 
 }
