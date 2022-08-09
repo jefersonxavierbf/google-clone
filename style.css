@@ -83,6 +83,11 @@ header {
 }
 
 /* MAIN */
+/* teste: maybe remove it or not */
+main {
+    height: 78.6vh;
+}
+
 .google-logo-container {
     display: flex;
     align-items: center;
@@ -149,7 +154,7 @@ header {
 
 .google-language-container {
     margin-top: 0.625rem;
-    height: 40.5vh;
+    /* height: 40.5vh; */
 }
 
 .google-language p {
