@@ -85,7 +85,7 @@ header {
 /* MAIN */
 /* teste: maybe remove it or not */
 main {
-    height: 100vh;
+    height: calc(100vh - 151px);
 }
 
 .google-logo-container {
@@ -98,7 +98,7 @@ main {
 .google-logo-container img {
     display: block;
     width: 40vw;
-    height: auto;
+    /* height: auto; */
     max-width: 272px;
 }
 
@@ -168,6 +168,8 @@ main {
     text-decoration: none;
 }
 
+
+/* Footer */
 .country-bar {
     display: block;
     padding: 0.94rem 1.875rem;
@@ -175,8 +177,6 @@ main {
     border-bottom: 1px solid #dadce0;
     color: #70757a;;
 }
-
-/* Footer */
 
 footer nav {
     display: flex;
