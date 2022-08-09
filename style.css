@@ -100,7 +100,7 @@ header {
 
 /* from projec begninning */
 .search-box-container {
-    height: 24vh;
+    /* height: 24vh; */
     padding: 1.25rem;
 }
 
@@ -149,7 +149,7 @@ header {
 
 .google-language-container {
     margin-top: 0.625rem;
-    height: 37vh;
+    height: 40.5vh;
 }
 
 .google-language p {
