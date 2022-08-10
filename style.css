@@ -91,7 +91,7 @@ main {
     justify-content: center;
     align-items: flex-end; /* TESTE - CHANGE TO CENTER TO FLEX-END*/
     /* height: 16.41vh; */ /* TESTE - COMMENT THIS HEIGHT*/
-    height: calc(100vh - 560px); /*TESTE - SAW ON DEVTOOL THIS CALC FORMULA*/
+    height: calc(100vh - 35rem); /*TESTE - SAW ON DEVTOOL THIS CALC FORMULA*/
     min-height: 92px; /*TEST - SAW ON DEVTOOTS*/
 }
 
@@ -256,12 +256,5 @@ footer ul li {
         height: 1.25rem;
         color: #3c4043;
     }
-
-    .google-logo-container {
-        
-        align-items: center; /* TESTE - CHANGE TO CENTER TO FLEX-END*/
-    
-    }
-    
 
 }
