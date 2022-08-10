@@ -89,8 +89,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* height: 16.41vh; */ /* TESTE - COMMENT THIS HEIGHT*/
-    height: calc(100vh - 35rem);
+    height: calc(100vh - 35rem); /* height: 16.41vh;  on mobile */
     min-height: 92px; 
 }
 
@@ -140,7 +139,6 @@ main {
     outline: none;
     color: rgba(0, 0, 0, .87);
     height: 34px;
-    /* margin-top: -37px; */
 }
 
 .search-box .mic {
@@ -173,14 +171,9 @@ main {
     color: #202124;
 }
 
-.google-language-container {
-    /* margin-top: 0.625rem; */
-}
-
 .google-language p {
-    /* height: 30vh; */
     text-align: center;
-    font-size: 0.81rem;
+    font-size: 0.8125rem;
     color: #4d5156;
     margin-top: -2px;
 }
@@ -197,11 +190,11 @@ main {
 /* Footer */
 .country-bar {
     display: block;
-    padding: 0.94rem 1.875rem;
+    padding: 0.938rem 1.875rem;
     background-color: #f2f2f2;
     border-bottom: 1px solid #dadce0;
     color: #70757a;
-    font-size: 0.93rem;
+    font-size: 0.9375rem;
 }
 
 footer nav {
@@ -211,21 +204,19 @@ footer nav {
     color: #70757a;
     padding: 0 1.25rem;
     flex-wrap: wrap;
-    font-size: 0.87rem;
+    font-size: 0.875rem;
 
 }
 
 footer ul {
     display: flex;
-    /* flex: 100%; */
     justify-content: center;
-    gap: 0.1rem;
     flex-wrap: wrap;
 }
 
 footer ul li {
     list-style: none;
-    padding: 0.93rem;
+    padding: 0.9375rem;
 }
 
 @media (max-width: 700px) {
@@ -246,7 +237,6 @@ footer ul li {
         align-items: center;
         padding-right: 0.25rem;
         text-transform: uppercase;
-        /* font-weight: bold; */
         
     }
 
@@ -284,10 +274,6 @@ footer ul li {
         padding-left: 0.62rem;
         padding-right: 0.62rem;
     }
-
-    /* .search-box {
-        height: fit-content;
-    } */
 
     /* MAIN */
     .search-box-btns {
