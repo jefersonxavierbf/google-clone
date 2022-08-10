@@ -81,7 +81,6 @@ header {
 }
 
 /* MAIN */
-/* teste: maybe remove it or not */
 main {
     height: calc(100vh - 9.5rem);
 }
@@ -89,10 +88,10 @@ main {
 .google-logo-container {
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* TESTE - CHANGE TO CENTER TO FLEX-END*/
+    align-items: flex-end;
     /* height: 16.41vh; */ /* TESTE - COMMENT THIS HEIGHT*/
-    height: calc(100vh - 35rem); /*TESTE - SAW ON DEVTOOL THIS CALC FORMULA*/
-    min-height: 92px; /*TEST - SAW ON DEVTOOTS*/
+    height: calc(100vh - 35rem);
+    min-height: 92px; 
 }
 
 .google-logo-container img {
@@ -109,22 +108,33 @@ main {
 
 .search-box {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
     justify-content: center;
     max-width: 584px;
     margin: 0 auto;
     border: 1px solid #2021242a;
     border-radius: 1.5rem;
-    padding: 0.32rem 0.5rem 0 0.875rem;
+    padding: 0 18px 0 17px;
+    height: 46px;
+}
+
+.wrapper-seach-box-and-btns{
+    padding-top: 6px;
+    margin: 0 auto;
+    max-width: 585px;
 }
 
 .search-box input {
-    width: 100%;
-    border: transparent;
-    height: 1.75rem;
+    display: flex;
+    flex: 100%;
+    background-color: transparent;
     outline: none;
-    padding: 0.32rem;
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, .87);
+    height: 34px;
+    /* margin-top: -37px; */
 }
 
 .search-box .mic {
@@ -135,22 +145,24 @@ main {
     display: none;
 }
 
-.search-box-btns-container {
+.search-box-btns {
     margin-top: 1.125rem;
     height: 3.625rem;
     text-align: center;
 }
 
-.search-box-btns-container button {
-    margin: 0.69rem 0.25rem;
+.search-box-btns button {
+    margin: 11px .25rem;
     border: 1px solid transparent;
-    padding: 0 1rem;
+    padding: 9px 16px;
     color: #3c4043;
     background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 .google-language-container {
-    margin-top: 0.625rem;
+    /* margin-top: 0.625rem; */
 }
 
 .google-language p {
@@ -239,7 +251,7 @@ footer ul li {
     }
 
     /* MAIN */
-    .search-box-btns-container {
+    .search-box-btns {
         display: none;
     }
 
