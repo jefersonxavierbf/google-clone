@@ -201,6 +201,8 @@ footer nav {
 
 footer ul {
     display: flex;
+    /* flex: 100%; */
+    justify-content: center;
     gap: 0.1rem;
     flex-wrap: wrap;
 }
@@ -276,7 +278,7 @@ footer ul li {
     }
 
     .google-logo-container {
-        height: 16.41vh
+        height: 12vh
     }
 
 }
