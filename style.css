@@ -267,6 +267,8 @@ footer ul li {
         display: block;
         height: 1.25rem;
         color: #3c4043;
+        margin-bottom: -0.32rem;
+        font-size: 0.93rem;
     }
 
     .google-logo-container {
