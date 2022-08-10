@@ -83,7 +83,7 @@ header {
 /* MAIN */
 /* teste: maybe remove it or not */
 main {
-    height: calc(100vh - 151px);
+    height: calc(100vh - 9.5rem);
 }
 
 .google-logo-container {
@@ -255,6 +255,10 @@ footer ul li {
         display: block;
         height: 1.25rem;
         color: #3c4043;
+    }
+
+    .google-logo-container {
+        /* height: calc(100vh - 35rem); TESTE - SAW ON DEVTOOL THIS CALC FORMULA */
     }
 
 }
