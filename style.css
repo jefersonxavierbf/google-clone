@@ -116,7 +116,7 @@ main {
     border: 1px solid #2021242a;
     border-radius: 1.5rem;
     padding: 0 18px 0 17px;
-    height: 46px;
+    height: 2.87rem;
 }
 
 .wrapper-seach-box-and-btns{
@@ -230,6 +230,8 @@ footer ul li {
         align-items: center;
         padding-right: 0.25rem;
         text-transform: uppercase;
+        font-weight: bold;
+        
     }
 
     .mobile-menu-btn {
@@ -254,6 +256,15 @@ footer ul li {
 
     .mobile-menu img {
         display: block;
+    }
+
+    .search-box-container {
+        padding-left: 0.62rem;
+        padding-right: 0.62rem;
+    }
+
+    .search-box {
+        height: fit-content;
     }
 
     /* MAIN */
