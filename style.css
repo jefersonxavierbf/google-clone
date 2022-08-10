@@ -230,7 +230,7 @@ footer ul li {
         align-items: center;
         padding-right: 0.25rem;
         text-transform: uppercase;
-        font-weight: bold;
+        /* font-weight: bold; */
         
     }
 
@@ -263,9 +263,9 @@ footer ul li {
         padding-right: 0.62rem;
     }
 
-    .search-box {
+    /* .search-box {
         height: fit-content;
-    }
+    } */
 
     /* MAIN */
     .search-box-btns {
