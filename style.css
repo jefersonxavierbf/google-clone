@@ -258,7 +258,7 @@ footer ul li {
     }
 
     .google-logo-container {
-        /* height: calc(100vh - 35rem); TESTE - SAW ON DEVTOOL THIS CALC FORMULA */
+        height: 16.41vh
     }
 
 }
