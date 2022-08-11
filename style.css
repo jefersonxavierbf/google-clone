@@ -278,7 +278,7 @@ footer a:hover {
     }
 
     .mobile-menu-btn div {
-        height: 0.16rem; /* 2pix */
+        height: 0.125rem; /* 2pix */
         width: 1.125rem; /* 18 */
         background-color: #707578;
     }
