@@ -258,6 +258,12 @@ footer a:hover {
         justify-content: space-between;
     }
 
+    .nav-bar a {
+        color: #707578;
+        font-weight: 700;
+        /* letter-spacing: 0px; */
+    }
+
     .mobile-menu {
         display: flex;
         align-items: center;
@@ -274,7 +280,7 @@ footer a:hover {
     .mobile-menu-btn div {
         height: 0.16rem; /* 2pix */
         width: 1.5rem;
-        background-color: #000000DE;
+        background-color: #707578;
     }
 
     .mobile-menu .todas-link {
@@ -283,7 +289,7 @@ footer a:hover {
     }
 
     .mobile-menu-btn .line2 {
-        margin: 0.3125rem 0; /* 5pix */
+        margin: 0.1875rem 0; /* 3pix */
     }
 
     .mobile-menu img {
@@ -317,9 +323,9 @@ footer a:hover {
     .search-box .fa-microphone {
         display: block;
         height: 1.25rem;
-        color: #3c4043;
-        margin-bottom: -0.32rem;
-        font-size: 0.93rem;
+        color: #707579;
+        margin-bottom: -0.15rem;
+        font-size: 1rem; /* 16px */
     }
 
     .google-logo-container {
