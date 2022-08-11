@@ -305,9 +305,9 @@ footer a:hover {
         display: none;
     }
 
-    .fa-keyboard {
+    .search-box .keyboard {
         display: none;
-    }
+     }
 
     .search-box .mic {
         display: none;
