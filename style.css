@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    padding: 0.375rem /* 6px */
+    padding: 0.375rem; /* 6px */
 }
 
 .nav-bar {
@@ -252,6 +252,11 @@ footer a:hover {
     }
 
     /* HEADER */
+    header {
+        padding: unset; /* 6px */
+    }
+    
+
     .nav-bar {
         display: flex;
         flex-direction: unset;
