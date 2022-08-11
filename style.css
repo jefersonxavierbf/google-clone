@@ -163,18 +163,19 @@ main {
 }
 
 .search-box-btns {
-    margin-top: 1.125rem;
-    height: 3.625rem;
+    margin-top: 1.1875rem;/* 19px */
+    height: 3.625rem; /* 58px */
     text-align: center;
 }
 
 .search-box-btns button {
-    margin: 0.6875rem .25rem; /* 11px 4px*/
-    border: 1px solid transparent;
-    padding: 0.5625rem 1rem 0.5625rem 1rem; /* 9px 16px; */
+    text-align: center;
+    margin: 0.6875rem 0.3125rem; /* 11px 5px*/
+    padding: 0.5rem 0.9375rem; /* 8px 15px; */
     color: #3c4043;
     background-color: #f8f9fa;
-    border-radius: 0.25rem; /* 4px */
+    border: 1px solid transparent;
+    border-radius: 0.1875rem; /* 3px */
     font-size: 0.875rem; /* 14px; */
 }
 
@@ -189,12 +190,12 @@ main {
     font-size: small;
     font-size: 0.8125rem; /* 13px */
     color: #4d5156;
-    margin-top: -0.125rem;
+    margin-top: -3px;
 }
 
 .google-language a {
     text-decoration: none;
-    padding: 0 3px;
+    padding: 0 0.1875rem; /* 3px */
 }
 
 .google-language a:hover {
@@ -217,9 +218,9 @@ footer nav {
     justify-content: space-between;
     background-color: #F2F2F2;
     color: #70757a;
-    padding: 0 1.25rem;
+    padding: 0 1.25rem; /* 20px */
     flex-wrap: wrap;
-    font-size: 0.875rem;
+    font-size: 0.875rem; /* 14 */
 
 }
 
@@ -231,7 +232,7 @@ footer ul {
 
 footer ul li {
     list-style: none;
-    padding: 0.9375rem;
+    padding: 0.9375rem; /* 15px */
 }
 
 footer a {
