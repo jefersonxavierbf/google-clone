@@ -259,9 +259,28 @@ footer a:hover {
     }
 
     .nav-bar a {
+        display: block;
+        line-height: 12px;
+        padding: unset;
         color: #707578;
         font-weight: 700;
+        margin-left: unset;
+        margin-right: calc(15px - 15px);
         /* letter-spacing: 0px; */
+    }
+    
+    .line-bottom {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: fit-content;
+        border-bottom: 2px solid #4985e7;
+        height: 48px;
+        margin-bottom: -2px;
+        margin-left: 0.92rem;
+        margin-right: 0.92rem;
+        
     }
 
     .mobile-menu {
@@ -285,7 +304,7 @@ footer a:hover {
 
     .mobile-menu .todas-link {
         display: block;
-        margin: 0 0.92rem 0 1.6rem;
+        color: #4985e7;
     }
 
     .mobile-menu-btn .line2 {
