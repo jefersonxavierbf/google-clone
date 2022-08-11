@@ -283,7 +283,7 @@ footer a:hover {
     }
 
     .mobile-menu-btn .line2 {
-        margin: 0.4rem 0; /* 0.4pix */
+        margin: 0.3125rem 0; /* 5pix */
     }
 
     .mobile-menu img {
