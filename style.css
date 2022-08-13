@@ -284,6 +284,7 @@ footer a:hover {
         display: block;
         color: #707578;
         font-weight: 600;
+        margin-bottom: -1px;
     }
 
     nav.nav-bar a:hover {
@@ -309,26 +310,45 @@ footer a:hover {
         height:24px;
         margin: 12px 16px;
     }
-
-
+    
+    
     ul.mobile-menu .todas-link {
         color: #4985e7;
     }
-
+    
     ul.mobile-menu img {
         display: block;
     }
-
+    
     /* MAIN */
+    main {
+        padding-top: 20px;
+    }
     .search-box:hover {
         box-shadow: unset;
         background-color: unset;
         border-color: #2021242a;;
     }
+    
+    .google-logo-container {
+        height: 72px;
+        min-height: unset;
+        margin: 36px auto 18px;;
+    }
+
+    .google-logo-container img {
+        height: 56px;
+        width: 160px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
 
     .search-box-container {
-        padding-left: 0.62rem;
-        padding-right: 0.62rem;
+        padding: 0 8px 32px 8px;
+    }
+
+    .wrapper-seach-box-and-btns {
+        padding: unset;
     }
 
     .search-box-btns {
@@ -351,8 +371,5 @@ footer a:hover {
         font-size: 1rem; /* 16px */
     }
 
-    .google-logo-container {
-        height: 14vh
-    }
 
 }
