@@ -1,3 +1,5 @@
+Clique para [ver ao vivo](https://projeto-google-clone.netlify.app/).
+
 # ![Clone do Google Bucador](img/logo-google.png) CLONE
 STATUS: EM DESENVOLVIMENTO
 
